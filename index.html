@@ -28,7 +28,7 @@
     </header>
 
     <!--Booking Section-->
-    <main class="main-content container">
+    <main id="thank-you" class="main-content container">
 
         <div class="booking-content">
             <h1>Cruise Queen</h1>
@@ -58,10 +58,10 @@
             </div>
             <div class="input-group f-class">
                 <div class="number-spinner">
-                    <h4>First Class ($<span id="firstClass-total">150</span>)</h4>
-                    <input id="firstClass-count" class="inp-style inp-width" type="number" value="0">
-                </div>
-                <div class="plus-minus-btn">
+                    <h6>First Class ($<span id="firstClass-total">150</span>)</h6>
+                    <input id="firstClass-count" class="inp-style inp-width" type="text" value="1">
+                    </div>
+                    <div class="plus-minus-btn">
                     <button onclick="handleTicketChange('firstClass', true)">+</button>
                     <button onclick="handleTicketChange('firstClass', false)">-</button>
                 </div>
@@ -70,7 +70,7 @@
             <div class="input-group f-class">
                 <div class="number-spinner">
                     <h4>Economy ($<span id="economy-total">100</span>)</h4>
-                    <input id="economy-count" class="inp-style inp-width" type="number" value="0">
+                    <input id="economy-count" class="inp-style inp-width" type="text" value="1">
                 </div>
                 <div class="plus-minus-btn">
                     <button onclick="handleTicketChange('economy', true)">+</button>

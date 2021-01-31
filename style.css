@@ -88,6 +88,7 @@ nav ul li a:hover, a.active{
     border-radius: 4px;
     margin: 10px 0;
 }
+
 .f-class{
     display: flex;
     justify-content: space-between;
